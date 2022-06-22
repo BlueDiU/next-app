@@ -1,4 +1,8 @@
-export function DarkLayout({ children }) {
+type Props = {
+  children: React.ReactNode
+};
+
+export function DarkLayout({ children }: Props) {
   return (
     <div
       style={{
